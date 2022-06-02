@@ -2247,8 +2247,8 @@ input, select, textarea {
 			}
 
 			#main > section.one {
-				opacity: 0.4;
-                                filter: alpha(opacity=40);
+				opacity: 0.2;
+                                filter: alpha(opacity=20);
 				background-color: #81918E;
 				background-image: url("../../images/powergrid-city_1600x900.jpg");
 			}
