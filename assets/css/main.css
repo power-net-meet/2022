@@ -2124,52 +2124,46 @@ input, select, textarea {
 			top: 0;
 		}
 
-	#nav ul {
-		list-style: none;
-		padding-left: 0;
-		margin-bottom: 0;
-	}
-
-		#nav ul li {
-			padding-left: 0;
+	#header nav {
+			position: absolute;
+			right: 1em;
+			top: 0;
 		}
 
-			#nav ul li a {
-				display: block;
-				padding: 0.5em 1.5em 0.5em 1.5em;
-				color: rgba(255, 255, 255, 0.5);
-				text-decoration: none;
-				outline: 0;
-				border: 0;
-				-moz-transition: none;
-				-webkit-transition: none;
-				-ms-transition: none;
-				transition: none;
+			#header nav ul {
+				margin: 0;
 			}
 
-				#nav ul li a span {
-					position: relative;
-					display: block;
-					font-size: 0.8em;
+				#header nav ul li {
+					display: inline-block;
+					margin-left: 1em;
 				}
 
-					#nav ul li a span:before {
-						position: absolute;
-						left: 0;
-						color: #41484c;
-						text-align: center;
-						width: 1.25em;
-						line-height: 1.75em;
+					#header nav ul li a, #header nav ul li span {
+						border: 0;
+						color: inherit;
+						display: inline-block;
+						height: inherit;
+						line-height: inherit;
+						outline: 0;
 					}
 
-				#nav ul li a.active {
-					background: rgba(0, 0, 0, 0.15);
-					box-shadow: inset 0 0 0.25em 0 rgba(0, 0, 0, 0.125);
-					color: #fff;
-				}
+						#header nav ul li a.button, #header nav ul li span.button {
+							height: 2em;
+							line-height: 2em;
+							padding: 0 1.25em;
+						}
 
-					#nav ul li a.active span:before {
-						color: #e27689;
+						#header nav ul li a:not(.button):before, #header nav ul li span:not(.button):before {
+							margin-right: 0.5em;
+						}
+
+					#header nav ul li.active > a, #header nav ul li.active > span {
+						color: #e44c65;
+					}
+
+					#header nav ul li > ul {
+						display: none;
 					}
 
 /* Footer */
