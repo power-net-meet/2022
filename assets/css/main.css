@@ -1631,8 +1631,18 @@ input, select, textarea {
         }
 
         .image.pic {
+            padding: 0 0 0 0;
+            margin: 0 0 0 0;
             display: block;
             width: 150px;
+            height: 200px;
+        }
+
+        .image.pic.sim {
+            padding: 0 0 0 0;
+            margin: 0 0 0 0;
+            display: block;
+            width: 200px;
             height: 200px;
         }
 
@@ -1925,17 +1935,25 @@ input, select, textarea {
         }
         p.name{
             color: #000;
-            margin: 0 0 10px0 0;
+            /*position: relative;*/
+            /*left: -1.5em;*/
+            margin: 0 0 10px 0;
             text-align: left;
             color: #5b5b5b;
             font-size: 17pt;
+        }
+
+        section.name {
+            /*width: 30em;*/
+            padding-left: 29em;
         }
         p.pres{
             color: #444444;
             font-size: 17pt;
             font-weight: 530;
+            text-align: center;
         }
-        p.abstract{
+        p.abst{
             color: #5b5b5b;
             font-size: 15pt;
             /*padding: 0 0 20px 0;*/
@@ -1945,6 +1963,10 @@ input, select, textarea {
         .feature-list.small h3:before {
             font-size: 0.8em;
         }
+
+div.col-6.col-12-xlarge.pres{
+    margin: 0 0 0 0;
+}
 
 /* Icons */
 
