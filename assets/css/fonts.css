@@ -1,0 +1,23 @@
+@font-face {
+  font-family: 'Sabon';
+  font-weight: 400;
+  src: url('../fonts/Sabon-Font/Sabon_Roman.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Fredella';
+  font-weight: 400;
+  src: url('../fonts/fredella/Fredella.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'AppleG';
+  font-weight: 400;
+  src: url('../fonts/apple_garamond/AppleGaramond.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'AppleG-light';
+  font-weight: 400;
+  src: url('../fonts/apple_garamond/AppleGaramond-Light.ttf') format('truetype');
+}
