@@ -146,11 +146,11 @@ input, select, textarea {
 		font-style: italic;
 	}
 
-	/*hr {
+	hr {
 		border: 0;
 		border-top: solid 1px #ddd;
 		margin: 2em 0 2em 0;
-	}*/
+	}
 
 	sub {
 		position: relative;
@@ -2042,9 +2042,9 @@ a.anchor{
 				color: #484d55;
 			}
 
-/*			.wrapper.style3 .image {*/
-/*				border: solid 10px #fff;*/
-/*			}*/
+/*			.wrapper.style3 .image {
+				border: solid 10px #fff;
+			}*/
 
 /* Page Wrapper */
 
@@ -2388,10 +2388,10 @@ a.anchor{
 			color: #fff;
 		}
 
-		/*#footer hr {
+		#footer hr {
 			border-top-color: #333;
 			border-top-color: rgba(255, 255, 255, 0.05);
-		}*/
+		}
 
 		#footer form input[type="text"],
 		#footer form input[type="email"],
@@ -2516,7 +2516,7 @@ a.anchor{
 				color: #fff;
 			}
 
-/* XLarge */
+/* xlarge */
 
 	@media screen and (max-width: 1680px) {
 
