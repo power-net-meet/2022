@@ -100,7 +100,7 @@ input, select, textarea {
 
 	body, input, textarea, select {
 		/*font-family: 'Source Sans Pro', sans-serif;*/
-		font-family: 'Fredella';
+/*		font-family: 'Fredella';*/
 		font-weight: 400;
 		color: #919499;
 		font-size: 14pt;
@@ -146,11 +146,11 @@ input, select, textarea {
 		font-style: italic;
 	}
 
-	hr {
+	/*hr {
 		border: 0;
 		border-top: solid 1px #ddd;
 		margin: 2em 0 2em 0;
-	}
+	}*/
 
 	sub {
 		position: relative;
@@ -176,6 +176,12 @@ input, select, textarea {
 		margin-bottom: 2em;
 	}
 
+a.anchor{
+	display: block;
+	position: relative;
+	top: -5%;
+	visibility: hidden;
+}
 /* Container */
 
 	.container {
@@ -1836,7 +1842,7 @@ input, select, textarea {
 	}
 
 		.feature-list section {
-			border-top: solid 1px #eee;
+			/*border-top: solid 1px #eee;*/
 			padding-top: 3em;
 			padding-left: 5em;
 			position: relative;
@@ -2036,9 +2042,9 @@ input, select, textarea {
 				color: #484d55;
 			}
 
-			.wrapper.style3 .image {
-				border: solid 10px #fff;
-			}
+/*			.wrapper.style3 .image {*/
+/*				border: solid 10px #fff;*/
+/*			}*/
 
 /* Page Wrapper */
 
@@ -2149,6 +2155,13 @@ input, select, textarea {
 			height: 35em;
 		}
 
+	#org p{
+		font-family: 'Sabon';
+	}
+	#org h2{
+		font-family: 'Sabon';
+	}
+
 /* Logo */
 
 	#logo {
@@ -2159,22 +2172,34 @@ input, select, textarea {
 	}
 
 		#logo h1 {
+			font-family: 'Source Sans Pro', sans-serif;
 			font-weight: 900;
-			text-transform: uppercase;
+/*			text-transform: uppercase;*/
 			color: #fff;
 			font-size: 2em;
 			letter-spacing: 0.25em;
 		}
 
 		#logo p {
+			font-family: 'Source Sans Pro', sans-serif;
 			color: #eee;
 			color: rgba(255, 255, 255, 0.5);
-			text-transform: uppercase;
+/*			text-transform: uppercase;*/
 			margin: 1.25em 0 0 0;
 			display: block;
 			letter-spacing: 0.2em;
 			font-size: 0.9em;
 		}
+			#logo p.logo{
+			font-family: 'Lyon';
+			color: #eee;
+			color: rgba(255, 255, 255, 0.5);
+/*			text-transform: uppercase;*/
+			margin: 1.25em 0 0 0;
+			display: block;
+			letter-spacing: 0.2em;
+			font-size: 1.5em;
+			}
 
 /* Nav */
 	.current{
@@ -2340,8 +2365,15 @@ input, select, textarea {
 		}
 
 /* Main */
-	#main p {
+	#main p.intro {
 		font-family: 'Sabon';
+		color: #444;
+	}
+	#main font{
+		font-family: 'Source Sans Pro', sans-serif;
+	}
+	#main h1{
+		font-family: 'Source Sans Pro', sans-serif;
 	}
 /* Footer */
 
@@ -2356,10 +2388,10 @@ input, select, textarea {
 			color: #fff;
 		}
 
-		#footer hr {
+		/*#footer hr {
 			border-top-color: #333;
 			border-top-color: rgba(255, 255, 255, 0.05);
-		}
+		}*/
 
 		#footer form input[type="text"],
 		#footer form input[type="email"],
@@ -2449,7 +2481,7 @@ input, select, textarea {
 		text-align: center;
 		padding-top: 6em;
 		margin-top: 6em;
-		border-top: solid 1px rgba(255, 255, 255, 0.05);
+		/*border-top: solid 1px rgba(255, 255, 255, 0.05);*/
 	}
 
 		#copyright ul {
@@ -2837,9 +2869,9 @@ input, select, textarea {
 				margin: 0 0 1em 0;
 			}
 
-			hr {
+			/*hr {
 				margin: 1em 0 1em 0;
-			}
+			}*/
 
 		/* Section/Article */
 

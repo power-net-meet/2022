@@ -21,3 +21,15 @@
   font-weight: 400;
   src: url('../fonts/apple_garamond/AppleGaramond-Light.ttf') format('truetype');
 }
+
+@font-face {
+  font-family: 'Lyon';
+  /*font-weight: 400;*/
+  src: url('../fonts/Lyon Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Matrix';
+  /*font-weight: 400;*/
+  src: url('../fonts/Matrix Bold.ttf') format('truetype');
+}
